@@ -1,0 +1,65 @@
+body{
+    margin:0;
+  }
+  
+  .app {
+    min-height: 100vh;
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1, h3{
+    margin: 0;
+  }
+  
+  ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .card {
+    background-color: blueviolet;
+    width: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  
+  .card-principal-title, .card-subtitle {
+    text-align: center;
+  }
+  
+  .card-principal-title {
+    font-size: 30px;
+  }
+  
+  .card-subtitle {
+    font-size: 22px;
+  }
+  
+  .icon-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .card-temp {
+    text-align: center;
+  }
+  
+  .card-btn{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: palevioletred;
+    color: blanchedalmond;
+    font-weight: bold;
+    cursor: pointer;
+  }
